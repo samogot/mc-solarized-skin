@@ -30,8 +30,8 @@ and define MC_SKIN in .bashrc, .zshrc or .whatnotrc:
 
 ```bash
 mkdir -p $HOME/.mc/lib/
-git clone https://github.com/iwfmp/mc-solarized-skin.git $HOME/.mc/lib/
-echo "MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> .zshrc
+git clone https://github.com/iwfmp/mc-solarized-skin.git $HOME/.mc/lib/mc-solarized-skin
+echo "export MC_SKIN=$HOME/.mc/lib/mc-solarized/solarized.ini" >> $HOME/.zshrc
 ```
 # Color reference
 | SOLARIZED | HEX     | TERMCOL       |   
